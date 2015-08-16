@@ -1,0 +1,30 @@
+{
+  "name": "jekyll-on-gulp",
+  "version": "0.0.1",
+  "description": "Static blog generator based on gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjarnet/jekyll-on-gulp.git"
+  },
+  "keywords": [
+    "blog",
+    "gulp"
+  ],
+  "author": "Øystein Kjærnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjarnet/jekyll-on-gulp/issues"
+  },
+  "homepage": "https://github.com/kjarnet/jekyll-on-gulp#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0"
+  }
+}
